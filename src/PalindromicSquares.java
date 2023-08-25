@@ -29,6 +29,8 @@ public class PalindromicSquares {
             if (intToString.charAt(i) != intToString.charAt(j)) {
                 return false;
             }
+            i++;
+            j--;
         }
         return true;
     }
