@@ -4,7 +4,8 @@ public class PalindromicSquares {
         int m = 50;
         int[] result = palindromeArray(n, m);
         for (int i : result) {
-            System.out.println(i);
+            if (i != 0)
+                System.out.println(i);
         }
     }
 
